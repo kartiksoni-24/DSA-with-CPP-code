@@ -7,9 +7,11 @@ This repository contains my solutions to Data Structures and Algorithms (DSA) pr
 - Strings
 - Sorting
 - Recursion
-- Binary Search
+- Searching
 - OOP
 - Vectors
+- Divide & Conquer
+- Backtracking
 - More coming soon...
 
 ## 🎯 Goal
