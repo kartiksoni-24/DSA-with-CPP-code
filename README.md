@@ -12,6 +12,7 @@ This repository contains my solutions to Data Structures and Algorithms (DSA) pr
 - Vectors
 - Divide & Conquer
 - Backtracking
+- Linked List
 - More coming soon...
 
 ## 🎯 Goal
