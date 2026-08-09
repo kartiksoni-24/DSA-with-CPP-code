@@ -82,24 +82,24 @@ public:
         tail = temp;
     }
 
-    int searchRec(Node *temp, int key, int i)
-    {
-        if (temp == NULL)
-        {
-            return -1;
-        }
-        if (temp->data == key)
-        {
-            return i;
-        }
 
-        return searchRec(temp->next, key, i + 1);
+    void reverse()
+    {
+        Node *prev = NULL;
+        Node *curr = head;
+        Node *next;
+
+        while (curr != NULL)
+        {
+            next = curr->next;
+            curr->next = prev;
+
+            prev = curr;
+            curr = next;
+        }
+        head = prev;
     }
 
-    int helper(int key)
-    {
-        return searchRec(head, key, 0);
-    }
 };
 
 int main()
@@ -110,6 +110,6 @@ int main()
     ll.push_back(4);
     ll.push_back(2);
 
-    cout << ll.helper(4);
+    ll.reverse();
     ll.printList();
 }

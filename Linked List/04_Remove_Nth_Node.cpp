@@ -82,23 +82,32 @@ public:
         tail = temp;
     }
 
-    int searchRec(Node *temp, int key, int i)
+    int llSize()
     {
-        if (temp == NULL)
+        int sz = 0;
+        Node *temp = head;
+
+        while (temp != NULL)
         {
-            return -1;
-        }
-        if (temp->data == key)
-        {
-            return i;
+            sz += 1;
+            temp = temp->next;
         }
 
-        return searchRec(temp->next, key, i + 1);
+        return sz;
     }
 
-    int helper(int key)
+    void removeNth(int n)
     {
-        return searchRec(head, key, 0);
+        int sz = llSize();
+        Node *prev = head;
+
+        for (int i = 1; i < (sz - n); i++)
+        {
+            prev = prev->next;
+        }
+        Node *toDel = prev->next;
+        cout << toDel->data << " is going to dalete\n";
+        prev->next = prev->next->next;
     }
 };
 
@@ -110,6 +119,6 @@ int main()
     ll.push_back(4);
     ll.push_back(2);
 
-    cout << ll.helper(4);
+    ll.removeNth(2);
     ll.printList();
 }
