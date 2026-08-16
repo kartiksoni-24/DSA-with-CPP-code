@@ -13,6 +13,8 @@ This repository contains my solutions to Data Structures and Algorithms (DSA) pr
 - Divide & Conquer
 - Backtracking
 - Linked List
+- Stack
+- Queue
 - More coming soon...
 
 ## 🎯 Goal
