@@ -15,6 +15,7 @@ This repository contains my solutions to Data Structures and Algorithms (DSA) pr
 - Linked List
 - Stack
 - Queue
+- Greedy Approach
 - More coming soon...
 
 ## 🎯 Goal
