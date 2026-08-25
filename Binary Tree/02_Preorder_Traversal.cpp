@@ -9,35 +9,44 @@ public:
     Node *left;
     Node *right;
 
-    Node(int val)
+    Node(int data)
     {
-        data = val;
-        left = right = NULL;
+        this->data = data;
     }
 };
 
-static int idx = -1;
+static int i = -1;
 
 Node *createTree(vector<int> nodes)
-{ // O(n)
-    idx++;
-    if (nodes[idx] == -1)
+{
+    i++;
+    if (nodes[i] == -1)
     {
         return NULL;
     }
 
-    Node *currNode = new Node(nodes[idx]);
+    Node *currNode = new Node(nodes[i]);
     currNode->left = createTree(nodes);
     currNode->right = createTree(nodes);
 
     return currNode;
 }
 
+// Preorder = Root -> Left -> Right
+void preorder(Node* root){ // O(n)
+    if(root == NULL){
+        return;
+    }
+    cout << root->data<< " ";
+    preorder(root->left);
+    preorder(root->right);
+}
+
 int main()
 {
     vector<int> nodes = {1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, -1};
-    Node *root = createTree(nodes);
+    Node* root = createTree(nodes);
 
-    cout << root->data;
+    preorder(root);
     return 0;
 }
