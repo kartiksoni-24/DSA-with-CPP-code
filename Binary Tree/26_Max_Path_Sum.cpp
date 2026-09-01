@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include<climits>
 using namespace std;
 
 class Node
@@ -33,7 +34,7 @@ Node *createTree(vector<int> &nodes)
     return currNode;
 }
 
-int maxSum = 0;
+int maxSum = INT_MIN;
 
 int maxPathSum(Node* root){
     if(root == NULL){
