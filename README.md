@@ -16,6 +16,8 @@ This repository contains my solutions to Data Structures and Algorithms (DSA) pr
 - Stack
 - Queue
 - Greedy Approach
+- Binary Tree
+- BST
 - More coming soon...
 
 ## 🎯 Goal
