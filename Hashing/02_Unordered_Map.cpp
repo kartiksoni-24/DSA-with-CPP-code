@@ -20,6 +20,9 @@ int main(){
         cout << "not present\n";
     }
 
+    int c = mp["soni"];
+    cout<< c << endl;
+
     mp.erase("abc");
     for(pair<string, int> m: mp){
         cout << m.first << "'s age is " << m.second << endl;
