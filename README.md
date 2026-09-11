@@ -18,7 +18,7 @@ This repository contains my solutions to Data Structures and Algorithms (DSA) pr
 - Greedy Approach
 - Binary Tree
 - BST
-- Heap
+- Heaps
 - Hashing
 - More coming soon...
 
