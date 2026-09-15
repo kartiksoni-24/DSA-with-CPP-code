@@ -20,6 +20,7 @@ This repository contains my solutions to Data Structures and Algorithms (DSA) pr
 - BST
 - Heaps
 - Hashing
+- Graph
 - More coming soon...
 
 ## 🎯 Goal
