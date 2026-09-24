@@ -10,7 +10,7 @@ public:
     bool isEnd;
 
     Node(){
-        isEnd = true;
+        isEnd = false;
     }
 };
 
@@ -55,23 +55,29 @@ bool helper(Trie &trie, string key){
 
     for(int i = 0; i < key.size(); i++){
         string first = key.substr(0, i+1);
-        string second; 
+        string second = key.substr(i+1);
+        
+        if(trie.search(first) && helper(trie, second)){
+            return true;
+        }
     }
+
+    return false;
 }
 
-void wordBreak(vector<string> dict, string key){
+bool wordBreak(vector<string>& dict, string key){
     Trie trie;
 
     for(int i = 0; i < dict.size();i++){
         trie.insert(dict[i]);
     }
 
-
+    return helper(trie, key);
 }
 
 int main(){
-    vector<string> words = {"the", "a", "there", "their", "thee", "any"};
-   
+    vector<string> dict = {"ice", "kartik", "soni", "like", "not", "ji"};
+    cout << (wordBreak(dict, "kartiksoniilikeice") ? "present" : "not present");
 
     return 0;
 }
