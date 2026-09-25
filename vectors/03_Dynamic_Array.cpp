@@ -1,3 +1,12 @@
+// Problem:
+// Create an array of the requested size at runtime and print its values.
+//
+// Approach:
+// Allocate memory with new, fill the array with consecutive numbers, then free it with delete[].
+//
+// Complexity:
+// Time: O(n)
+// Space: O(n)
 #include <iostream>
 using namespace std;
 

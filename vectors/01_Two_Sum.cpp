@@ -1,3 +1,9 @@
+// Problem:
+// Find the indices of two numbers whose sum equals the target.
+//
+// Approach:
+// Compare values at the two ends of the sorted array.
+// Move the right pointer for a large sum and the left pointer for a small sum.
 #include <iostream>
 #include <vector>
 using namespace std;
