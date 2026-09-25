@@ -1,3 +1,12 @@
+// Problem:
+// Print a rhombus made of stars.
+//
+// Approach:
+// Print decreasing leading spaces and a fixed number of stars on every row.
+//
+// Complexity:
+// Time: O(n^2)
+// Space: O(1)
 #include <iostream>
 using namespace std;
 

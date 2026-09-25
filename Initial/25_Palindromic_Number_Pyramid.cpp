@@ -1,3 +1,12 @@
+// Problem:
+// Print a pyramid where every row forms a palindromic number pattern.
+//
+// Approach:
+// Print spaces, descending numbers, then ascending numbers for each row.
+//
+// Complexity:
+// Time: O(n^2)
+// Space: O(1)
 #include <iostream>
 using namespace std;
 

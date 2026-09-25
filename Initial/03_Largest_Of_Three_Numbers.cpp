@@ -1,3 +1,12 @@
+// Problem:
+// Find which of three input numbers is the largest.
+//
+// Approach:
+// Compare each number with the other two using conditional checks.
+//
+// Complexity:
+// Time: O(1)
+// Space: O(1)
 #include <iostream>
 using namespace std;
 

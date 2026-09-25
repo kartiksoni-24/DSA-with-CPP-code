@@ -1,3 +1,12 @@
+// Problem:
+// Check whether a number is prime.
+//
+// Approach:
+// Try every possible divisor below the number and stop when one divides it.
+//
+// Complexity:
+// Time: O(n)
+// Space: O(1)
 #include <iostream>
 using namespace std;
 

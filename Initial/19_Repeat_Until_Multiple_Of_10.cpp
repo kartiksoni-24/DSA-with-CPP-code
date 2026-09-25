@@ -1,3 +1,12 @@
+// Problem:
+// Keep reading numbers until one is divisible by 10.
+//
+// Approach:
+// Use an infinite loop and exit when the current number has remainder 0 on division by 10.
+//
+// Complexity:
+// Time: O(k), where k is the number of inputs read
+// Space: O(1)
 #include <iostream>
 using namespace std;
 

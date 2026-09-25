@@ -1,3 +1,12 @@
+// Problem:
+// Print a triangle of alternating 1s and 0s.
+//
+// Approach:
+// Print one more value on each row and toggle a boolean after every value.
+//
+// Complexity:
+// Time: O(n^2)
+// Space: O(1)
 #include <iostream>
 using namespace std;
 

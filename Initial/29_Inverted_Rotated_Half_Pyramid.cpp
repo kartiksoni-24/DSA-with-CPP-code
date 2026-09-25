@@ -1,3 +1,12 @@
+// Problem:
+// Print a right-aligned half pyramid of stars.
+//
+// Approach:
+// Print decreasing spaces followed by increasing stars on each row.
+//
+// Complexity:
+// Time: O(n^2)
+// Space: O(1)
 #include <iostream>
 using namespace std;
 

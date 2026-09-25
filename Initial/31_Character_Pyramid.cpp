@@ -1,3 +1,12 @@
+// Problem:
+// Print a triangle of consecutive uppercase characters.
+//
+// Approach:
+// Print one more character per row and increment the character after every print.
+//
+// Complexity:
+// Time: O(n^2)
+// Space: O(1)
 #include <iostream>
 using namespace std;
 

@@ -1,3 +1,12 @@
+// Problem:
+// Print a diamond pattern made of stars.
+//
+// Approach:
+// Print an expanding upper pyramid followed by a shrinking lower pyramid.
+//
+// Complexity:
+// Time: O(n^2)
+// Space: O(1)
 #include <iostream>
 using namespace std;
 

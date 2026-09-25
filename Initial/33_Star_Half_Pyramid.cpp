@@ -1,3 +1,12 @@
+// Problem:
+// Print a half pyramid of stars.
+//
+// Approach:
+// Print one more star on each successive row.
+//
+// Complexity:
+// Time: O(n^2)
+// Space: O(1)
 #include <iostream>
 using namespace std;
 

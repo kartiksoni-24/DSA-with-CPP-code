@@ -1,3 +1,12 @@
+// Problem:
+// Print a butterfly pattern made of stars and spaces.
+//
+// Approach:
+// Build the upper and lower halves with mirrored star groups around a shrinking gap.
+//
+// Complexity:
+// Time: O(n^2)
+// Space: O(1)
 #include <iostream>
 using namespace std;
 

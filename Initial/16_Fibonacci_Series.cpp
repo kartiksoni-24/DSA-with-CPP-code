@@ -1,3 +1,12 @@
+// Problem:
+// Print the Fibonacci series up to the requested number of iterations.
+//
+// Approach:
+// Keep the previous two terms and add them to produce the next term.
+//
+// Complexity:
+// Time: O(n)
+// Space: O(1)
 #include <iostream>
 using namespace std;
 

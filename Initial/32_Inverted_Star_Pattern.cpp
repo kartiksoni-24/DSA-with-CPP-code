@@ -1,3 +1,12 @@
+// Problem:
+// Print an inverted half pyramid of stars.
+//
+// Approach:
+// Reduce the number of printed stars by one on each new row.
+//
+// Complexity:
+// Time: O(n^2)
+// Space: O(1)
 #include <iostream>
 using namespace std;
 

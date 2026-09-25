@@ -1,3 +1,12 @@
+// Problem:
+// Find the binomial coefficient for n and r.
+//
+// Approach:
+// Compute n!, r!, and (n-r)! and apply n! / (r! * (n-r)!).
+//
+// Complexity:
+// Time: O(n)
+// Space: O(1)
 #include <iostream>
 #include <cmath>
 using namespace std;

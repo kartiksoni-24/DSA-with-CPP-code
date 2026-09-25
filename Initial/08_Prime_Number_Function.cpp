@@ -1,3 +1,12 @@
+// Problem:
+// Check whether a number is prime.
+//
+// Approach:
+// Look for a divisor from 2 through the square root of the number.
+//
+// Complexity:
+// Time: O(sqrt(n))
+// Space: O(1)
 #include <iostream>
 #include <cmath>
 using namespace std;

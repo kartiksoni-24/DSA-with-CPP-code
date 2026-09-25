@@ -1,3 +1,12 @@
+// Problem:
+// Check whether a number equals the sum of the cubes of its digits.
+//
+// Approach:
+// Extract each digit, add its cube, and compare the sum with the original.
+//
+// Complexity:
+// Time: O(d), where d is the number of digits
+// Space: O(1)
 #include <iostream>
 using namespace std;
 

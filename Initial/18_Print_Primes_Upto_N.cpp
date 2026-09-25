@@ -1,3 +1,12 @@
+// Problem:
+// Print prime numbers up to a given number.
+//
+// Approach:
+// For each number, test smaller numbers as possible divisors.
+//
+// Complexity:
+// Time: O(n^2)
+// Space: O(1)
 #include <iostream>
 using namespace std;
 

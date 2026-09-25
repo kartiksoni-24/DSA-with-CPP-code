@@ -1,3 +1,12 @@
+// Problem:
+// Check whether a number is even or odd.
+//
+// Approach:
+// Test the remainder after dividing the number by 2.
+//
+// Complexity:
+// Time: O(1)
+// Space: O(1)
 #include <iostream>
 #include <cmath>
 using namespace std;

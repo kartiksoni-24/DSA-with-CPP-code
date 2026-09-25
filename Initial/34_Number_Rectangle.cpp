@@ -1,3 +1,12 @@
+// Problem:
+// Print a rectangle where each row repeats its row number.
+//
+// Approach:
+// Use nested loops: the outer loop selects the row number and the inner loop repeats it.
+//
+// Complexity:
+// Time: O(n^2)
+// Space: O(1)
 #include <iostream>
 using namespace std;
 

@@ -1,3 +1,12 @@
+// Problem:
+// Find the factorial of a number.
+//
+// Approach:
+// Multiply all integers from 1 through the given number.
+//
+// Complexity:
+// Time: O(n)
+// Space: O(1)
 #include <iostream>
 #include <cmath>
 using namespace std;

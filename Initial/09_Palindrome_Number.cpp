@@ -1,3 +1,12 @@
+// Problem:
+// Check whether a number reads the same forward and backward.
+//
+// Approach:
+// Reverse the digits and compare the reversed number with the original.
+//
+// Complexity:
+// Time: O(d), where d is the number of digits
+// Space: O(1)
 #include <iostream>
 #include <cmath>
 using namespace std;

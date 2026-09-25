@@ -1,3 +1,12 @@
+// Problem:
+// Reverse the digits of a number.
+//
+// Approach:
+// Move each last digit into a new number by multiplying the result by 10 first.
+//
+// Complexity:
+// Time: O(d), where d is the number of digits
+// Space: O(1)
 #include <iostream>
 using namespace std;
 

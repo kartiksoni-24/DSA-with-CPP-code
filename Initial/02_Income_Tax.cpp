@@ -1,3 +1,12 @@
+// Problem:
+// Calculate tax from annual income using the given income slabs.
+//
+// Approach:
+// Use conditional checks to select the matching tax rate.
+//
+// Complexity:
+// Time: O(1)
+// Space: O(1)
 #include <iostream>
 using namespace std;
 
