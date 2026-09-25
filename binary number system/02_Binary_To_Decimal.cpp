@@ -5,7 +5,7 @@
 // Read digits from right to left and add each digit times its power of 2.
 //
 // Complexity:
-// Time: O(log n)
+// Time: O (log n)
 // Space: O(1)
 #include <iostream>
 using namespace std;
