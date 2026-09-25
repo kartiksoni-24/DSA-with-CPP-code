@@ -1,3 +1,12 @@
+// Problem:
+// Convert a decimal number to its binary representation.
+//
+// Approach:
+// Repeatedly divide by 2 and place each remainder at the next binary digit position.
+//
+// Complexity:
+// Time: O(log n)
+// Space: O(1)
 #include <iostream>
 using namespace std;
 
