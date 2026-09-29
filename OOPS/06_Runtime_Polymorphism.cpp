@@ -1,3 +1,12 @@
+// Problem:
+// Call a child's implementation through a parent-class pointer.
+//
+// Approach:
+// Mark the parent method virtual so the call is resolved to the child's overridden method at runtime.
+//
+// Complexity:
+// Time: O(1)
+// Space: O(1)
 #include <iostream>
 #include <string>
 using namespace std;

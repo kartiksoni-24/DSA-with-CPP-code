@@ -1,3 +1,12 @@
+// Problem:
+// Subtract two complex numbers using the minus operator.
+//
+// Approach:
+// Overload operator- to subtract the real and imaginary parts separately.
+//
+// Complexity:
+// Time: O(1)
+// Space: O(1)
 #include<iostream>
 using namespace std;
 

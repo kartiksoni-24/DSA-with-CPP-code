@@ -1,3 +1,12 @@
+// Problem:
+// Add or subtract two complex numbers with arithmetic operators.
+//
+// Approach:
+// Overload + and - inside the class to combine real and imaginary parts separately.
+//
+// Complexity:
+// Time: O(1)
+// Space: O(1)
 #include <iostream>
 #include <string>
 using namespace std;

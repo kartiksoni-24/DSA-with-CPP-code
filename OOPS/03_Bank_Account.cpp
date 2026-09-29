@@ -1,3 +1,12 @@
+// Problem:
+// Manage a bank account's balance after deposits and withdrawals.
+//
+// Approach:
+// Keep the account details inside a class and update the balance through member functions.
+//
+// Complexity:
+// Time: O(1)
+// Space: O(1)
 #include<iostream>
 using namespace std;
 

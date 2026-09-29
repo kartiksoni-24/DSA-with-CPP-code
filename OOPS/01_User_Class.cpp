@@ -1,3 +1,12 @@
+// Problem:
+// Create a user class that keeps sensitive data private and exposes controlled access.
+//
+// Approach:
+// Store the id and password as private members and use public methods to set or read them.
+//
+// Complexity:
+// Time: O(1)
+// Space: O(1)
 #include <iostream>
 using namespace std;
 
