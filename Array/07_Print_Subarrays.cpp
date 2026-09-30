@@ -1,3 +1,12 @@
+// Problem:
+// Print every contiguous subarray of an array.
+//
+// Approach:
+// Choose every start and end index, then print all elements between them.
+//
+// Complexity:
+// Time: O(n^3)
+// Space: O(1)
 #include <iostream>
 using namespace std;
 

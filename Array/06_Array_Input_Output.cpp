@@ -1,3 +1,12 @@
+// Problem:
+// Read an array from input and print its elements.
+//
+// Approach:
+// Use one loop to read all values and another loop to print them.
+//
+// Complexity:
+// Time: O(n)
+// Space: O(n)
 #include <iostream>
 using namespace std;
 

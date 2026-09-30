@@ -1,3 +1,12 @@
+// Problem:
+// Find the largest sum of any contiguous subarray.
+//
+// Approach:
+// Generate every subarray and sum its elements from scratch.
+//
+// Complexity:
+// Time: O(n^3)
+// Space: O(1)
 #include <iostream>
 using namespace std;
 
