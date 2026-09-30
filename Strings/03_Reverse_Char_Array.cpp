@@ -1,3 +1,12 @@
+// Problem:
+// Reverse a character array in place.
+//
+// Approach:
+// Use two pointers at the ends and swap characters while they move toward the center.
+//
+// Complexity:
+// Time: O(n)
+// Space: O(1)
 #include <iostream>
 #include <string.h>
 using namespace std;

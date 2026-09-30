@@ -1,3 +1,12 @@
+// Problem:
+// Convert every uppercase letter in a character array to lowercase.
+//
+// Approach:
+// Scan each character and use the uppercase-to-lowercase ASCII offset when needed.
+//
+// Complexity:
+// Time: O(n)
+// Space: O(1)
 #include <iostream>
 #include <string.h>
 using namespace std;

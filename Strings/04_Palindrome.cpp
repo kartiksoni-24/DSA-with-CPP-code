@@ -1,3 +1,12 @@
+// Problem:
+// Check whether a character array reads the same forward and backward.
+//
+// Approach:
+// Compare matching characters from both ends while moving toward the center.
+//
+// Complexity:
+// Time: O(n)
+// Space: O(1)
 #include <iostream>
 #include <string.h>
 using namespace std;

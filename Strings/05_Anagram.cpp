@@ -1,3 +1,12 @@
+// Problem:
+// Check whether two lowercase strings contain the same letters with the same counts.
+//
+// Approach:
+// Count letters from the first string, then decrease the counts using the second string.
+//
+// Complexity:
+// Time: O(n)
+// Space: O(n)
 #include <iostream>
 // #include<string.h>
 using namespace std;
