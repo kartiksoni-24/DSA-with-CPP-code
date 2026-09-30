@@ -1,3 +1,12 @@
+// Problem:
+// Print all matrix elements in spiral order.
+//
+// Approach:
+// Traverse the current top, right, bottom, and left boundaries, then shrink them inward.
+//
+// Complexity:
+// Time: O(n * m)
+// Space: O(1)
 #include <iostream>
 using namespace std;
 

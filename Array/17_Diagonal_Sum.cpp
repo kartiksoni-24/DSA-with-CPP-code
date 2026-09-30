@@ -1,3 +1,12 @@
+// Problem:
+// Find the sum of the primary and secondary diagonals of a square matrix.
+//
+// Approach:
+// Identify diagonal positions while scanning the matrix and also access both diagonals directly by index.
+//
+// Complexity:
+// Time: O(n^2)
+// Space: O(1)
 #include <iostream>
 using namespace std;
 

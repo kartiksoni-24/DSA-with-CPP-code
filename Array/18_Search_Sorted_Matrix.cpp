@@ -1,3 +1,12 @@
+// Problem:
+// Find a target value in a row-wise and column-wise sorted matrix.
+//
+// Approach:
+// Start at the top-right corner and move left for a smaller target or down for a larger one.
+//
+// Complexity:
+// Time: O(n + m)
+// Space: O(1)
 #include <iostream>
 using namespace std;
 

@@ -1,3 +1,12 @@
+// Problem:
+// Find the sum of the second row of a matrix.
+//
+// Approach:
+// Traverse the columns in row index 1 and add their values.
+//
+// Complexity:
+// Time: O(m)
+// Space: O(1)
 #include <iostream>
 using namespace std;
 

@@ -1,3 +1,12 @@
+// Problem:
+// Count how many times 7 appears in a matrix.
+//
+// Approach:
+// Visit every matrix cell and increase the count when its value is 7.
+//
+// Complexity:
+// Time: O(n * m)
+// Space: O(1)
 #include <iostream>
 using namespace std;
 
