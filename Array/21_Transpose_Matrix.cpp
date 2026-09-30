@@ -1,3 +1,12 @@
+// Problem:
+// Print the transpose of a matrix.
+//
+// Approach:
+// Visit each column first and print its values down the rows.
+//
+// Complexity:
+// Time: O(n * m)
+// Space: O(1)
 #include <iostream>
 using namespace std;
 
