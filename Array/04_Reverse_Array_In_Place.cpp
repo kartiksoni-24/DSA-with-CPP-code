@@ -1,3 +1,12 @@
+// Problem:
+// Reverse an array without using another array.
+//
+// Approach:
+// Swap elements at two ends while moving both pointers toward the center.
+//
+// Complexity:
+// Time: O(n)
+// Space: O(1)
 #include <iostream>
 using namespace std;
 

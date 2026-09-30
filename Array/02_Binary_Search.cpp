@@ -1,3 +1,12 @@
+// Problem:
+// Find the index of a target value in a sorted array.
+//
+// Approach:
+// Repeatedly compare the middle element and discard the half that cannot contain the target.
+//
+// Complexity:
+// Time: O(log n)
+// Space: O(1)
 #include <iostream>
 using namespace std;
 

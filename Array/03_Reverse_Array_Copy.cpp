@@ -1,3 +1,12 @@
+// Problem:
+// Reverse an array using a separate copy array.
+//
+// Approach:
+// Copy elements from the original array in reverse order, then copy them back.
+//
+// Complexity:
+// Time: O(n)
+// Space: O(n)
 #include <iostream>
 using namespace std;
 

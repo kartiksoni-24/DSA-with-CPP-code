@@ -1,3 +1,12 @@
+// Problem:
+// Find the largest value in an array.
+//
+// Approach:
+// Scan the array and keep the largest value seen so far.
+//
+// Complexity:
+// Time: O(n)
+// Space: O(1)
 #include <iostream>
 using namespace std;
 

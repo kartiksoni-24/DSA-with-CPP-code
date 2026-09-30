@@ -1,3 +1,12 @@
+// Problem:
+// Find the index of a target value in an array.
+//
+// Approach:
+// Check each element from left to right until the target is found.
+//
+// Complexity:
+// Time: O(n)
+// Space: O(1)
 #include <iostream>
 using namespace std;
 
