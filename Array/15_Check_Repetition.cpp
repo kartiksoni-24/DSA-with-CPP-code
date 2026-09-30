@@ -1,3 +1,12 @@
+// Problem:
+// Check whether an array contains any repeated value.
+//
+// Approach:
+// Compare every element with the elements that come after it.
+//
+// Complexity:
+// Time: O(n^2)
+// Space: O(1)
 #include <iostream>
 using namespace std;
 

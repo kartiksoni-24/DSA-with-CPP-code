@@ -1,3 +1,12 @@
+// Problem:
+// Print every subarray sum and find the largest one.
+//
+// Approach:
+// Generate every start and end index, then sum the chosen subarray from scratch.
+//
+// Complexity:
+// Time: O(n^3)
+// Space: O(1)
 #include <iostream>
 using namespace std;
 

@@ -1,3 +1,12 @@
+// Problem:
+// Find how much rainwater is trapped between bars.
+//
+// Approach:
+// Precompute the tallest bar on each side, then use the smaller height as the water level.
+//
+// Complexity:
+// Time: O(n)
+// Space: O(n)
 #include <iostream>
 using namespace std;
 
